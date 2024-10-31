@@ -1,0 +1,216 @@
+html {
+  box-sizing: border-box;
+}
+*, 
+*:before, 
+*:after {
+  box-sizing: inherit;
+}
+
+
+body {
+    font-family: 'Raleway', sans-serif;
+    background-color: #073A59;
+}
+.header {
+  display: flex;
+  justify-content: center;
+  background-image: url('../assets/img/header.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 18.75em;
+  color: white;
+}
+/*Para moviles */
+@media only screen and (max-width: 600px){ 
+  .header {
+    font-size: 10px;
+    text-align: justify;
+    width: 125%;
+  }
+}
+.header h1 {
+  text-align: center;
+  font-size: 4em;
+}
+.header p {
+  font-size: 2em;
+}
+/*Para moviles */
+@media only screen and (max-width: 600px){ 
+  .header p {
+    text-align: center;
+  }
+}
+.main {
+  display: flex;
+  justify-content: center;
+  background-color: #073A59;
+  color: black;
+}
+.container {
+  background-color: #B3E0F2;
+  padding: 15%;
+}
+.article {
+  text-align: center;
+}
+.article h1 {
+  text-align: center;
+  font-size: 3em;
+  background-color: white;
+  padding: 1em;
+  margin-top: -5.2em;
+}
+/*Para moviles */
+@media only screen and (max-width: 600px){ 
+  .container h1 {
+    padding: 0.5em;
+    margin-top: -2em;
+    margin-left: 2em;
+  }
+}
+.article h5 {
+  text-align: center;
+  font-size: 3em;
+}
+/*Para moviles */
+@media only screen and (max-width: 600px){ 
+  .container h5 {
+    margin-left: 2em;
+  }
+}
+.container-salon {
+  text-align: center;
+  font-size: 3em;
+  background-color: #78A4BF;
+  padding: 2em;
+  border-style: double;
+}
+/*Para moviles */
+@media only screen and (max-width: 600px){ 
+  .container-salon {
+    margin-left: 2em;
+    padding: 1em;
+  }
+}
+.img-left {
+  display: flex;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  height: 5em;
+  border-style:ridge;
+}
+.LogoMaps {
+  display: flex;
+  justify-content: center;
+  height: 1em;
+  margin-top: -2em;
+  margin-left: 2.5em;
+}
+/*Para moviles */
+@media only screen and (max-width: 600px){ 
+  .LogoMaps {
+    margin-left: -10%;
+  }
+}
+.container-salon button {
+  font-size: .7em;
+  background-color: #111226;
+  border-radius: .2em;
+  margin-top: -1em;
+}
+.container-salon a {
+  text-decoration: none;
+  color: white;
+}
+.contaimer2 {
+  margin-top: 1em;
+}
+.Contador {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 100px;
+  margin-top: 10em;
+}
+/*Para moviles */
+@media only screen and (max-width: 600px){ 
+  .Contador {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-left: 5em;
+    gap: 1em;
+  }
+}
+.simply-section {
+  background-color: white;
+  width: 10em;
+  height: 10em;
+  margin: 0 20px;
+  border-radius: 5px;
+  border-style: groove;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.simply-amount {
+  display: block;
+  font-size: 50px;
+  font-weight: 700;
+}
+.dots {
+  text-align: center;
+  margin-top: -10em;
+  color: black;
+  background-color: #B3E0F2;
+  margin-left: 4.5em;
+  margin-right: 4.5em; 
+}
+/*Para moviles */
+@media only screen and (max-width: 600px){ 
+  .dots {
+    margin-right: -2em;
+    background-color: #073A59;
+    margin-top: 5em;
+    color: white;
+
+  }
+}
+.enlace {
+  text-decoration: none;
+  color: black;
+  font-size: 4em;
+  display: flex;
+  justify-content: center;
+}
+/*Para moviles */
+@media only screen and (max-width: 600px){ 
+  .enlace {
+    color: white;
+  }
+}
+.QR {
+  width: 50%;
+  margin-top: -2em;
+  margin-left: auto;
+  margin-right: auto;
+  border-color: #111226 ;
+  padding: 10%;
+}
+footer {
+  text-align: center;
+  color: white;
+  padding: 5%;
+  background-color: #111226;
+}
+/*Para moviles */
+@media only screen and (max-width: 600px){ 
+  footer {
+    margin-right: -7em;
+  }
+}
